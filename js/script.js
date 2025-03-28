@@ -1,7 +1,7 @@
 
-// Función para obtener un número aleatorio entre 1 y 898
+// Función para obtener un número aleatorio entre 1 y 1025 
 function getRandomPokemonId() {
-    return Math.floor(Math.random() * 898) + 1;
+    return Math.floor(Math.random() * 1025 ) + 1;
 }
 
 // Función para elegir aleatoriamente uno de los métodos de búsqueda de Pokémon
