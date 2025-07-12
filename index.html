@@ -4,15 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokémon API</title>
+    <title>equipo aleatorio</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <h1>Baraja de Pokémon</h1>
-    <button onclick="fetchPokemonRandomMethod()">Generar Pokémon</button>
-    <div id="pokemon-container"></div>
+    <button onclick="metodoAleatorio()">Generar Pokémon</button>
+
+    <div id="campo-batalla">
+        <div id="jugador1"></div>
+        <div id="jugador2"></div>
+        <div id="jugador3"></div>
+    </div>
+
+    <button onclick="pelea()">¡Pelear!</button>
 
     <script src="js/script.js"></script>
 </body>
